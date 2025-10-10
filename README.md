@@ -1,49 +1,101 @@
-# 东南大学幻灯片模板
+# 中央财经大学幻灯片模板
 
-朋友，还在为学术报告、论文答辩、班级活动、社团组织找不到适合的幻灯片模板而发愁吗？赶快Star和Fork本Repo吧，这是东大学子的自由福音，是东大老师们新的视觉享受和审美冲击。使用本模板，你将轻松走向人生巅峰，从此各种答辩、报告都将拜倒在你皱巴巴的牛仔裤/石榴裙下。
+一个基于中央财经大学（CUFE）视觉识别系统（VIS）设计的 LaTeX Beamer 幻灯片模板，适用于学术报告、论文答辩、课程展示等各种场合。
 
-[点此预览](https://github.com/wurahara/SEU-Beamer-Slide/blob/master/SEU_BeamerTemplate.pdf)
+[点此预览](https://github.com/z-my-cn/CUFE-Beamer-Slide/blob/master/CUFE_BeamerTemplate.pdf)
 
-[Overleaf直链](https://www.overleaf.com/read/srvxqtjhcjbn)
+## 特色
 
-### 本模板适合
-- 本科、硕士和博士论文答辩
-- 各种学术报告、国际会议
-- 社团活动和班级活动展示
-- 向你喜欢的小哥哥/小姐姐求爱(雾)
+- 🎨 遵循中央财经大学视觉识别系统规范
+- 📊 专业的学术演示风格
+- 🔧 开箱即用，简单易用
+- 🚀 一键编译脚本，无需复杂配置
+- 📱 多平台支持（Windows/macOS/Linux）
 
-### 使用本模板，你需要
-- 一丢丢的编程能力
-- 一丢丢的LaTeX基础
-- 一丢丢地不要脸
+## 适用场景
 
-### 我为你准备了
-不再像其他模板一样需要掌握编写复杂的MakeFile的技术，我已经将编译过程封装在make.bat文件下，Windows用户只需轻轻一点，就可以静享丝滑编译体验。Mac OS、Linux和其他类Unix系统使用者也现在可以收获同等的喜悦，因为为你们准备的make.sh已加入豪华午餐。
+- 📖 本科、硕士和博士论文答辩
+- 🎓 学术报告、研讨会和国际会议
+- 👨‍🏫 课程展示和教学演示
+- 🏛️ 社团活动和班级活动展示
 
-### 开源许可证
-[GPL-3.0 © wurahara](https://github.com/wurahara/SEU-Beamer-Slide/blob/master/LICENSE)
+## 使用要求
 
+- LaTeX 发行版（推荐 TeX Live 或 MiKTeX）
+- 基础的 LaTeX 使用经验
+- 对美好事物的追求 ✨
 
-# Southeast University Slide Template
+## 快速开始
 
-My Friend, are you still worried about academic reports, thesis defense, class activities and community organizations which you can not find a suitable slide template for? Hurry up STAR and FORK this Repo, which is a free Gospel of SEU students, is the visual enjoyment and aesthetic impact for teachers. Using this template, you will easily enter the winner group of lives. And any report or defence will bow down on your crumpled jeans/garments from now on.
+### Windows 用户
 
-[click here to preview](https://github.com/wurahara/SEU-Beamer-Slide/blob/master/SEU_BeamerTemplate.pdf)
+直接双击运行 `make.bat` 文件，即可完成编译。
 
-### This template is suitable for:
-- Undergraduate, postgraduate and doctoral thesis/dissertation defense
-- Various academic reports and international conferences
-- Club activities and class activities
-- Wooing your favorite little brother(s)/sister(s)
+```batch
+make.bat
+```
 
-### To use this template, you need:
-- A little bit of programming skills
-- A little bit of LaTeX experience
-- Dare to lose face
+### macOS/Linux 用户
 
-### I prepared this for you：
-Unlike other templates, you will no longer need to master MakeFile to write complex compiler, since I have already encapsulated the compileing process in the make.bat file. Windows users can enjoy the silky building experience with just a gentle click.
-Those who use Mac OS, Linux, and other unix-like systems can now enjoy the same joy, since the make.sh file prepared for you is ready to go.
+在终端中运行：
 
-### License
-[the GPL - 3.0 © wurahara](https://github.com/wurahara/SEU-Beamer-Slide/blob/master/LICENSE)
+```bash
+chmod +x make.sh
+./make.sh
+```
+
+### 手动编译
+
+如果需要手动编译，请按以下顺序执行：
+
+```bash
+xelatex CUFE_BeamerTemplate.tex
+xelatex CUFE_BeamerTemplate.tex
+```
+
+## 文件结构
+
+```
+CUFE-Beamer-Slide/
+├── CUFE_BeamerTemplate.tex    # 主模板文件
+├── cufe.sty                   # 样式文件
+├── make.bat                   # Windows 编译脚本
+├── make.sh                    # Unix/Linux 编译脚本
+├── Makefile                   # Make 编译配置
+├── figures/                   # 图片资源目录
+├── fonts/                     # 字体文件目录
+├── source/                    # 源文件目录
+├── LICENSE                    # 开源许可证
+└── README.md                  # 说明文档
+```
+
+## 自定义
+
+1. 编辑 `CUFE_BeamerTemplate.tex` 文件修改内容
+2. 将图片素材放入 `figures/` 目录
+3. 根据需要调整 `cufe.sty` 样式文件
+
+## 致谢
+
+本项目基于 [SEU-Beamer-Slide](https://github.com/wurahara/SEU-Beamer-Slide) 修改而来，在此向原作者表示感谢。
+
+### 主要修改
+
+- 适配中央财经大学视觉识别系统（VIS）
+- 更新配色方案和样式设计
+- 优化字体和排版效果
+- 调整模板结构和内容组织
+
+## 开源许可证
+
+本项目遵循 GPL-3.0 许可证开源。详见 [LICENSE](LICENSE) 文件。
+
+[GPL-3.0 © z-my-cn](https://github.com/z-my-cn/CUFE-Beamer-Slide/blob/master/LICENSE)
+
+## 贡献
+
+欢迎提交 Issue 和 Pull Request 来改进这个模板！
+
+## 联系方式
+
+如有问题或建议，请通过 GitHub Issues 联系。
