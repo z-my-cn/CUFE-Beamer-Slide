@@ -2,7 +2,7 @@
 
 一个基于中央财经大学（CUFE）视觉识别系统（VIS）设计的 LaTeX Beamer 幻灯片模板，适用于学术报告、论文答辩、课程展示等各种场合。
 
-[点此预览](https://github.com/z-my-cn/CUFE-Beamer-Slide/blob/master/CUFE_BeamerTemplate.pdf)
+[点此预览](https://github.com/z-my-cn/CUFE-Beamer-Slide/blob/main/CUFE_BeamerTemplate.pdf)
 
 ## 特色
 
